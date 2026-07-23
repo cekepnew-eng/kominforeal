@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Calendar } from "lucide-react";
-import NoImage from "../../public/unnamed.webp";
+
+const NoImage = "/unnamed.webp";
 
 const NewsCard = ({ news, style }) => {
   const formatDate = (dateString) => {
